@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (versioned by DVC) — keep .dvc pointers and .gitkeep
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!data/raw/*.dvc
+!data/processed/*.dvc
+!data/external/*.dvc
+!data/raw/.gitignore
+!data/processed/.gitignore
+!data/external/.gitignore
+
+# Models (versioned by DVC) — keep .dvc pointers and .gitkeep
+models/*.pkl
+models/*.joblib
+models/*.onnx
+!models/.gitkeep
+!models/*.dvc
+!models/.gitignore
+
+# MLflow tracking store
+mlruns/
+mlartifacts/
+
+# DVC cache
+.dvc/cache/
+.dvc/tmp/
+.dvc/plots/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
