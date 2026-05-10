@@ -109,7 +109,7 @@ def trainOne(config: ExperimentConfig, X: pd.DataFrame, y: pd.Series) -> dict[st
         mlflow.set_tag("model_type", config.modelName)
         mlflow.set_tag("variant", "2")
 
-        mlflow.sklearn.log_model(pipeline, name="model")
+        mlflow.sklearn.log_model(pipeline, artifact_path="model")
 
         return {
             "run_id": run.info.run_id,
