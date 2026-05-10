@@ -1,0 +1,5 @@
+outs:
+- md5: ae6409563d71393b5881608650b2eddb
+  size: 2005
+  hash: md5
+  path: best_pipeline.pkl
