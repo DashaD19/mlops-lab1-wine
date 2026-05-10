@@ -1,0 +1,57 @@
+{
+  "best_run_id": "6715988d361e4a639b5dbacdc3247262",
+  "best_run_name": "logreg_l2_C01",
+  "best_test_accuracy": 1.0,
+  "saved_to": "models/best_pipeline.pkl",
+  "all_results": [
+    {
+      "run_name": "svc_rbf_C1",
+      "run_id": "f26d492cf4314db29f3ee3e818ab7c1f",
+      "cv_mean_accuracy": 0.9862068965517242,
+      "test_accuracy": 0.9722222222222222,
+      "test_f1": 0.9719701552732407
+    },
+    {
+      "run_name": "svc_rbf_C10",
+      "run_id": "a1567f0e61344926ad64b84caa985054",
+      "cv_mean_accuracy": 0.9862068965517242,
+      "test_accuracy": 0.9444444444444444,
+      "test_f1": 0.9432098765432099
+    },
+    {
+      "run_name": "svc_linear_C1",
+      "run_id": "f5d821d7dd0c4400bf642dcc1a065aa7",
+      "cv_mean_accuracy": 0.9862068965517242,
+      "test_accuracy": 0.9444444444444444,
+      "test_f1": 0.944269005847953
+    },
+    {
+      "run_name": "logreg_l2_C1",
+      "run_id": "e3b26049d3a6401a9cdd103148576fb7",
+      "cv_mean_accuracy": 0.993103448275862,
+      "test_accuracy": 0.9722222222222222,
+      "test_f1": 0.9719701552732407
+    },
+    {
+      "run_name": "logreg_l2_C01",
+      "run_id": "6715988d361e4a639b5dbacdc3247262",
+      "cv_mean_accuracy": 0.993103448275862,
+      "test_accuracy": 1.0,
+      "test_f1": 1.0
+    },
+    {
+      "run_name": "gb_n100_lr01",
+      "run_id": "a4cc011418284d039b6a7f770e1c1012",
+      "cv_mean_accuracy": 0.9583743842364532,
+      "test_accuracy": 0.9444444444444444,
+      "test_f1": 0.944269005847953
+    },
+    {
+      "run_name": "gb_n200_lr005",
+      "run_id": "16c602b7f38c4985af85fc99405a339e",
+      "cv_mean_accuracy": 0.9583743842364532,
+      "test_accuracy": 0.9444444444444444,
+      "test_f1": 0.944269005847953
+    }
+  ]
+}
