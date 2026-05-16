@@ -127,6 +127,18 @@ stratified split, 5-fold cross-validation на тренувальній вибі
 Логістична регресія з сильною регуляризацією перевершила SVC, бо Wine лінійно
 сепарабельний у стандартизованому просторі ознак.
 
+### MLflow UI
+
+Порівняння всіх 7 run-ів через `Chart` view (`mlflow ui --port 5000`):
+
+![MLflow runs comparison](docs/mlflow_chart.png)
+
+Деталі найкращого run-а `logreg_l2_C01`:
+
+![Best run details](docs/mlflow_best_run.png)
+
+Експорт усіх runs з параметрами і метриками — у [`docs/mlflow_runs.csv`](docs/mlflow_runs.csv).
+
 ## Використання моделі
 
 ```python
